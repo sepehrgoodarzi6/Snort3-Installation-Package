@@ -1,0 +1,2 @@
+[monitor:///var/log/snort/*alert_json.txt*]
+sourcetype = snort3:alert:json

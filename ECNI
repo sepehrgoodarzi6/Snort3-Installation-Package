@@ -1,0 +1,11 @@
+[Unit]
+Description=Ethtool Configration for Network Interface
+
+[Service]
+Requires=network.target
+Type=oneshot
+ExecStart=/sbin/ethtool -K ens3 gro off
+ExecStart=/sbin/ethtool -K ens3 lro off
+
+[Install]
+WantedBy=multi-user.target
