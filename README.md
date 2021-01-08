@@ -8,9 +8,15 @@ At the very first step, you need to download the updated ruleset. In order to do
 Now we got all the prequestics and we can start the installation. By following the instructions you are going to have Snort and its ruleset, OpenAppID, Splunk and an example plugin (to go on for the next ones) installed and also configured (for further results, you should config the files manually). Just run the mentioned commands in order(just have in mind, that it is going to take a while, so relax and grab a cup of coffee!). You are going to have your pc rebooted after the proccesses located at the lines 14 and 16, so do not worry about it:
 
 ~$ sudo apt install -y git
+
 ~$ git clone https://github.com/sepehrgoodarzi6/Ubuntu-Snort3-Installation-Package/
+
 ~$ cd Snort3-Installation-Package
+
 ~$ chmod +x Dist-Upgrade.sh
+
 ~$ ./Dist-Upgrade.sh
+
 ~$ chmod +x Installation-Script.sh
+
 ~$ ./Installation-Script.sh
