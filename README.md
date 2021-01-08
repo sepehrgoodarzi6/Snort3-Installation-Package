@@ -33,6 +33,5 @@ Write down the Net-Iface.
 
 Replace it with "ens3" and save the file (according to your network card, it might be eth0, wlp3s0, ...).
 
-~$
-
-~$
+You are done. Please let me know if you need help with it. I appriciate any kind of bug reporting and collabration...
+Good Luck!
