@@ -21,3 +21,18 @@ Now we got all the prequestics and we can start the installation. By following t
 ~$ chmod +x Installation-Script.sh
 
 ~$ ./Installation-Script.sh
+
+Just one more step to go!
+Open up the Terminal and then follow the instructions:
+
+~$ route
+
+Write down the Net-Iface.
+
+~$ sudo vi /lib/systemd/system/ethtool.service
+
+Replace it with "ens3" and save the file (according to your network card, it might be eth0, wlp3s0, ...).
+
+~$
+
+~$
