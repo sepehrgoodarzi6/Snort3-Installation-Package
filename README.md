@@ -2,6 +2,7 @@
 ---------------------------------------------------------------------------------------
 Gathered by, Sepehr Goodarzi
 Computer Engineering Student at A.Borujerdi University
+
 Email: sepehrgoodarzi6@gmail.com
 ---------------------------------------------------------------------------------------
 As you may know, Snort Community has not offered a fully packed installation package for Ubuntu, which is one of the most used linux distros as a server. So I decided to bring one to Ubuntu with all the requirements using the source code.
