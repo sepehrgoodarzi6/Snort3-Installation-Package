@@ -1,4 +1,4 @@
-name: snort3installationpackage
+name: snort3-installation-package
 version: "0.74-svn"
 summary: Intrusion Detection System
 description: |
@@ -11,10 +11,10 @@ confinement: devmode
 base: core18
 
 parts:
-  snort3installationpackage:
+  snort3-installation-package:
     plugin: autotools
     source-type: tar
-    source: https://github.com/sepehrgoodarzi6/snort3installationpackage/
+    source: https://github.com/sepehrgoodarzi6/snort3-installation-package/
     build-packages:
       - g++
       - make
@@ -75,7 +75,7 @@ parts:
       - zlib1g
 
 apps:
-  snort3installationpackage:
+  snort3-installation-package:
     command: ./Installation-Script.sh
     environment:
       "LD_LIBRARY_PATH": "$SNAP/usr/lib/$SNAPCRAFT_ARCH_TRIPLET/pulseaudio"
