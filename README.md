@@ -1,4 +1,4 @@
-# Snort3-Installation-Package
+# snort3installationpackage
 
 Gathered by, Sepehr Goodarzi
 Computer Engineering Student at A.Borujerdi University
