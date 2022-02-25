@@ -1,4 +1,4 @@
-# snort3installationpackage
+# snort3-installation-package
 
 Gathered by, Sepehr Goodarzi
 Computer Engineering Student at A.Borujerdi University
@@ -11,9 +11,9 @@ Now we got all the prequestics and we can start the installation. By following t
 
 ~$ sudo apt install -y git
 
-~$ git clone https://github.com/sepehrgoodarzi6/Ubuntu-Snort3-Installation-Package/
+~$ git clone https://github.com/sepehrgoodarzi6/snort3-installation-package/
 
-~$ cd Snort3-Installation-Package
+~$ cd snort3-installation-package
 
 ~$ chmod +x Dist-Upgrade.sh
 
