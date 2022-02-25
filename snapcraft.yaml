@@ -14,7 +14,7 @@ parts:
   snort3installationpackage:
     plugin: autotools
     source-type: tar
-    source: https://github.com/sepehrgoodarzi6/Snort3-Installation-Package/
+    source: https://github.com/sepehrgoodarzi6/snort3installationpackage/
     build-packages:
       - g++
       - make
