@@ -1,4 +1,4 @@
-# Ubuntu-Snort3-Installation-Package
+# Snort3-Installation-Package
 
 Gathered by, Sepehr Goodarzi
 Computer Engineering Student at A.Borujerdi University
